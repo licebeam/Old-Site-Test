@@ -1,0 +1,39 @@
+body {
+
+ 
+  background-color: white;
+  background: url("cssimages/hero.jpg") no-repeat center center;
+}
+#wrapper {
+	background-color: black;
+	height: 100vh;
+}
+#navbar{
+	background-color: black;
+}
+#jumbimg {
+	width: 100%;
+}
+.jumbotron{
+	width: 100%;
+	background-color: black;
+	
+}
+footer{
+	background-color: black;
+}
+header{
+	background-color: black;
+}
+#navbar .active > a {
+	background-color: #172B1F;
+}
+#navbar .active > a:hover {
+	background-color: #7EF2A8;
+}
+#navbar a:hover {
+	background-color: #7EF2A8;
+}
+#navbar a:focus {
+	background-color: #172B1F;
+}
