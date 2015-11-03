@@ -41,11 +41,10 @@ footer{
 	background-color: #172B1F;
 }
 #dropButton {
-	position: absolute;
 	float: left;
 	height: 100px;
 	width:100px;
-	margin-top: -11px;
+	margin: 0;
 	border-color: #263C4C; 
 	border-radius: 0;
 	color:white;
@@ -64,13 +63,14 @@ footer{
 }
 
 .topBar{
-	float: right;
+	position: absolute;
+	display: inline-block;
 	width: 100%;
 	height:100px;
 	background-color: white;
 }
 #topText{
-	margin-left: 160px;
+	
 	color: black;
 	padding:10px;
 }
