@@ -5,7 +5,7 @@ body {
   background: url("cssimages/hero.jpg") no-repeat center center;
 }
 #wrapper {
-	background-color: black;
+	background-color: #619AC4;
 	height: 100vh;
 }
 #navbar{
