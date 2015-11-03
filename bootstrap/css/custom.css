@@ -2,7 +2,6 @@ body {
 
  
   background-color: white;
-  background: url("cssimages/hero.jpg") no-repeat center center;
 }
 #wrapper {
 	background-color: #619AC4;
@@ -21,6 +20,7 @@ body {
 }
 footer{
 	background-color:  #619AC4;
+
 }
 header{
 	background-color: white;
