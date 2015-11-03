@@ -16,14 +16,14 @@ body {
 }
 .jumbotron{
 	width: 100%;
-	background-color: black;
+	background-color:  #619AC4;
 	
 }
 footer{
-	background-color: black;
+	background-color:  #619AC4;
 }
 header{
-	background-color: black;
+	background-color: white;
 }
 #navbar .active > a {
 	background-color: #172B1F;
