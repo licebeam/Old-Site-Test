@@ -1,14 +1,14 @@
 body {
 
  
-  background-color: white;
+  background-color: #619AC4;
 }
 #wrapper {
 	background-color: #619AC4;
 	height: 100vh;
 }
 #navbar{
-	background-color: black;
+	background-color: #263C4C;
 }
 #jumbimg {
 	width: 100%;
