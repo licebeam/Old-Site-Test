@@ -5,14 +5,18 @@ html > body{
 }
 
 body {
+
 	font-family: 'Montserrat', sans-serif;
 	color:white;
 	background-color: #395972;
+	width: 100vw;
+	overflow: hidden;
+	
 }
 #wrapper {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #395972;
-	height:100vh;
+	
 	
 }
 #navbar{
@@ -23,11 +27,14 @@ body {
 footer{
 	
 	background-color: #263C4C;
-	
+	height: 40px;
 	
 
 }
-
+footer > p {
+	padding-left: 4px;
+	padding-top: 10px;
+}
 
 #navbar .active > a {
 	background-color: #172B1F;
@@ -44,7 +51,7 @@ footer{
 #dropButton {
 	float: left;
 	height: 200px;
-	width:100px;
+	width:200px;
 	margin: 0;
 	border-color: #263C4C; 
 	border-radius: 0;
@@ -52,31 +59,36 @@ footer{
 	background-color: #263C4C;
 }
 .dropdown-menu {
-	margin-top: 0;
+	
 	border-color: #263C4C; 
 	border-radius: 0;
-	width: 100px;
+	width: 200px;
 	padding-left: 4px;
 	background-color: #263C4C;
-	max-width: 100px;
-	min-width: 100px;
+	max-width: 200px;
+	min-width: 200px;
 	font-size: 22px;
 }
 
 .topBar{
+	font-size: 6em;
+	width:100%;
+	
 	position: absolute;
 	display: inline-block;
-	width: 100%;
+
 	height:200px;
 	background-color: white;
 }
 #topText{
+	margin-top: 20px;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
 	padding:10px;
 }
 #face{
 	float: left;
+	margin-left: 20px;
 }
 #bottomMenu, #bottomMenu > img{
 	text-align: right;
