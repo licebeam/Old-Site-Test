@@ -8,21 +8,18 @@ body {
 
 	font-family: 'Montserrat', sans-serif;
 	color:white;
-	background-color: #395972;
+	background-color: #336E7B;
 	width: 100vw;
 	overflow: hidden;
 	
 }
 #wrapper {
 	font-family: 'Montserrat', sans-serif;
-	background-color: #395972;
+	background-color: #336E7B;
 	
 	
 }
-#navbar{
-	background-color: white;
-	padding:0;
-}
+
 
 footer{
 	
@@ -34,64 +31,37 @@ footer{
 footer > p {
 	padding-left: 4px;
 	padding-top: 10px;
-}
-
-#navbar .active > a {
-	background-color: #172B1F;
-}
-#navbar .active > a:hover {
-	background-color: #7EF2A8;
-}
-#navbar a:hover {
-	background-color: #7EF2A8;
-}
-#navbar a:focus {
-	background-color: #172B1F;
-}
-#dropButton {
 	float: left;
-	height: 200px;
-	width:200px;
-	margin: 0;
-	border-color: #263C4C; 
-	border-radius: 0;
-	color:white;
-	background-color: #263C4C;
 }
-.dropdown-menu {
-	
-	border-color: #263C4C; 
-	border-radius: 0;
-	width: 200px;
-	padding-left: 4px;
-	background-color: #263C4C;
-	max-width: 200px;
-	min-width: 200px;
-	font-size: 22px;
-}
-
-.topBar{
-	font-size: 6em;
-	width:100%;
-	
-	position: absolute;
-	display: inline-block;
-
-	height:200px;
-	background-color: white;
-}
-#topText{
-	margin-top: 20px;
-	font-family: 'Montserrat', sans-serif;
-	color: black;
-	padding:10px;
-}
-#face{
-	float: left;
-	margin-left: 20px;
-}
-#bottomMenu, #bottomMenu > img{
-	text-align: right;
+footer > a{
 	float: right;
+	padding: 4px;
+}
+
+
+#topBar{
+
+	font-size: 6em;
+	height:200px;
 	
+	background-color: #263C4C;
+}
+#topBar > p {
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#bottomMenu, #bottomMenu > img{
+
+}
+#bottomMenu2{
+
+	
+}
+.cell2{
+	height: 380px;
+}
+.cell2, .cell3{
+
+	margin-top: 10%;
 }
