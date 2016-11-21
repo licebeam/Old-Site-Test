@@ -1,0 +1,61 @@
+body{
+	margin: 0 !important;
+    padding: 0 !important;
+}
+h1{
+	margin:0;
+}
+.container{
+	
+	height:auto;
+	margin:0 auto;
+	background-color: #0D0C0A;
+	z-index: -2;
+}
+
+.top{
+	
+	width:auto;
+	height:70vh;
+	margin:0 auto;
+
+	background-position: right top;
+  	background-image: url('images/splash3.jpeg');
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.subtext{ font-family: 'Raleway', sans-serif; }
+
+
+
+.mid{
+	padding: 0;
+	width:auto;
+	height:40vh;
+	margin:0 auto;
+
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+    body {
+        background-color: black;
+        font-size: 40pt;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    body {
+        background-color: black;
+        font-size: 30pt;
+
+    }
+}
+@media only screen and (max-width: 640px) {
+    body {
+    	font-size: 20pt;
+        background-color: white;
+    }
+}
