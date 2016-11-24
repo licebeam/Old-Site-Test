@@ -1,22 +1,29 @@
 body{
 	margin: 0 !important;
     padding: 0 !important;
+
 }
+
 h1{
-	margin:0;
+	display:inline;
+	
 }
+
 .container{
 	
 	height:auto;
 	margin:0 auto;
 	background-color: #0D0C0A;
 	z-index: -2;
+	background-image: url("images/twinkle_twinkle.png");
+    background-repeat: repeat;
+    
 }
 
 .top{
 	
 	width:auto;
-	height:70vh;
+	height:400px;
 	margin:0 auto;
 
 	background-position: right top;
@@ -26,19 +33,80 @@ h1{
 	
 }
 
-.subtext{ font-family: 'Raleway', sans-serif; }
+.subtext{ 
+	font-family: 'Raleway', sans-serif; 
+	color:#DC3522;
+	margin-top:-10px;
+	margin-left: -30px;
+}
+.bodytext{
 
+	font-family: 'Raleway', sans-serif; 
+	font-size:12pt;
+	margin:10px;
+}
 
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+	
+   	display:inline;
+}
+
+a{
+	font-family: 'Raleway', sans-serif; 
+	color:white;
+	font-size:12pt;
+	margin:10px;
+}
 
 .mid{
 	padding: 0;
 	width:auto;
-	height:40vh;
+	height:400px;
 	margin:0 auto;
+	color:white;
+	
 
 }
+.midtext{
 
+	font-family: 'Raleway', sans-serif; 
+	font-size:20pt;
+	margin-top:100px;
+	margin-left:100px;
+}
 
+.portside{
+	padding: 0;
+	width:auto;
+	height:400px;
+	margin:0 auto;
+	color:white;
+
+}
+.porttext{
+
+	font-family: 'Raleway', sans-serif; 
+	font-size:12pt;
+	margin:10px;
+}
+
+.bottom{
+	padding: 0;
+	width:auto;
+	height:400px;
+	margin:0 auto;
+	color:white;
+	background-position: right bottom;
+  	background-image: url('images/splash3.jpeg');
+}
 
 @media only screen and (max-width: 1920px) {
     body {
