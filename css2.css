@@ -1,0 +1,38 @@
+body{
+	margin: 0 !important;
+    padding: 0 !important;
+	
+}
+.container{
+
+	left:50%;
+	background-image: url("images/layout1.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	height:1440px;
+	width:auto;
+}
+
+
+@media only screen and (max-width: 1920px) {
+    body {
+        background-color: black;
+        font-size: 40pt;
+       
+    }
+}
+@media only screen and (max-width: 1080px) {
+    body {
+        background-color: black;
+        font-size: 30pt;
+     
+
+    }
+}
+@media only screen and (max-width: 640px) {
+    body {
+    	font-size: 20pt;
+        background-color: white
+       
+            }
+}
